@@ -61,7 +61,7 @@ let n4 = '10';
 
 // OPERADORES LOGICOS
  /**
-  * AND (&&)
+  * AND (&&) 1 - Precedencia, porem () vai na frente em precedencia
   * OR (||)
   * NOT (!)
   * 
@@ -72,5 +72,6 @@ let n4 = '10';
   */
  let idade = 21;
  let paisPresentes = false;
- const podeViajar = idade >= 18 || paisPresentes;
+ let comprouBilhete =  false;
+ const podeViajar = (idade >= 18 || paisPresentes) && comprouBilhete;
  console.log(`Pode viajar: ${podeViajar}`);
