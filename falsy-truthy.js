@@ -1,5 +1,5 @@
 // Falsy values: 0, "", NaN, undefined, null, false
-// Truth: Todos os demais
+// Truthy: Todos os demais
 
 if(0){
     console.log("Este valor é verdadeiro");
