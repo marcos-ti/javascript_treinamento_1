@@ -8,7 +8,8 @@
 </head>
 <body>
     <h1>Funcoes - Tabuada</h1>
-    <button onclick="mostrarTabuada()">Mostrar Tabuada</button><button>Limpar Tabuada</button>
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <button onclick="limparTabuada()">Limpar Tabuada</button>
     <div id="output"></div>
     <script>
         const output = document.getElementById("output")
@@ -34,6 +35,13 @@
             
         }
         
+        function limparTabuada(){      
+            let limpar = ""
+            output.innerHTML = limpar
+        }
+
+        
+
     </script>
 </body>
 </html>
