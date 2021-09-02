@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Funcoes - Tabuada</h1>
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button><button>Limpar Tabuada</button>
+    <div id="output"></div>
+    <script>
+        const output = document.getElementById("output")
+
+        function mostrarTabuada(){
+
+            // let numero = prompt("Digite um número: ");
+
+            // for(let i = 0; i <= 10; i++)
+            // {
+            //     output.innerHTML += (`${numero} X ${i} = ${i * numero} <br>`);
+              
+            // };
+            
+            let msg = ""
+            // pedir para o usuario digitar um numero
+            n = parseFloat(prompt("Digite um numero: "))
+
+            for(i=0;i<=10;i++){
+                msg += `${n} X ${i} = ${n*i}<br>`
+            }
+            output.innerHTML = msg
+            
+        }
+        
+    </script>
+</body>
+</html>
